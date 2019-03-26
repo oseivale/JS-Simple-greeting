@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Greeting</title>
+</head>
+<body>
+	<div class="title">My Random Quiz</div>
+	<h2>How are you feeling today?</h2>
+		<div id="quiz-container" class="container">
+	
+		<div id="question" class="question"></div>
+		<label class="option"><input type="radio" name="option" value="1"><span id="opt1">I'm feeling Super Duper!</span></label>
+		<label class="option"><input type="radio" name="option" value="2"><span id="opt2">I feel like a ton of bricks :( </span></label>
+		<label class="option"><input type="radio" name="option" value="3"><span id="opt3">I have no idea how I feel</span></label>
+		<button id="next-button" class="next-btn" onclick="submit()">Submit</button>
+	</div>
+	<div id="result" class="container result" style="display: none">
+		
+	</div>
+
+	<script src="scripts/scripts.js"></script>
+</body>
+</html>
